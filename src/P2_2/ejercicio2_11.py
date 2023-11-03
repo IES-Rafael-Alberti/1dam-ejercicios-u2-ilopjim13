@@ -1,8 +1,8 @@
 # Escribir un programa que pida al usuario una palabra y luego muestre por pantalla una a una las letras de la palabra introducida empezando por la última.
 
 def deletrear(palabra):
-    for letra in reversed(palabra):
-        print(letra)
+    for i in reversed(palabra):
+        print(i)
         
 
 def main():

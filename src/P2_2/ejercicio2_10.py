@@ -2,8 +2,10 @@
 
 def primos(num):
     cont = 2
+    if num == 2:
+        return "Es primo"
     while cont <= num - 1:
-        div = num % cont
+        div = num % 2
         cont += 1
         if div == 0:
             return "No es primo"
