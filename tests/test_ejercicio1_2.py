@@ -1,5 +1,5 @@
 import pytest
-from src.P21.ejercicio1_2 import pasar
+from src.P2_1.ejercicio1_2 import pasar
 
 @pytest.mark.parametrize(
     "input_n1, expected",

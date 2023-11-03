@@ -1,5 +1,5 @@
 import pytest
-from src.P21.ejercicio1_1 import mayoredad
+from src.P2_1.ejercicio1_1 import mayoredad
 
 @pytest.mark.parametrize(
     "input_n1, expected",
