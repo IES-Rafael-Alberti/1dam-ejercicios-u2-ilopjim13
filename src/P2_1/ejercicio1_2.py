@@ -1,6 +1,6 @@
 def pasar(contra):
     psw = "contraseña"
-    if psw >= contra:
+    if psw == contra:
         return "La contraseña es correcta."
     else:
         return "La contraseña es incorrecta"

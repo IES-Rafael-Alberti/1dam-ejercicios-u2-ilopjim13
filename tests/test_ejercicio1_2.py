@@ -9,9 +9,9 @@ from src.P2_1.ejercicio1_2 import pasar
     ("cOntraseña", "La contraseña es incorrecta"),
     ("contraseñA", "La contraseña es incorrecta"),
     ("coNtraseña", "La contraseña es incorrecta"),
-    ("contraseña", "La contraseña es incorrecta"),
+    ("cOntraseña", "La contraseña es incorrecta"),
     ("conTraseña", "La contraseña es incorrecta"),
-    ("contraseña", "La contraseña es incorrecta"),
+    ("contRaseña", "La contraseña es incorrecta"),
     ("contraSeña", "La contraseña es incorrecta"),
     ("aguacate", "La contraseña es incorrecta")
     ]

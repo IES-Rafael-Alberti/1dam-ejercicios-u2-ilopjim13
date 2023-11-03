@@ -16,9 +16,9 @@ def triangulo(num):
         suma = suma + 2
         print(serie)
 
-num = int(input("Introduce un numero: "))
 
 def main():
+    num = int(input("Introduce un numero: "))
     triangulo(num)
 
 if __name__ == "__main__":
