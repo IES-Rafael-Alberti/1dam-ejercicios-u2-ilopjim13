@@ -6,9 +6,8 @@ def contra(palabra):
         palabra = input("Contraseña incorrecta vuelve a intentarlo: ")
     return "Contraseña correcta."
 
-palabra = input("Introduce la contraseña: ")
-
 def main():
+    palabra = input("Introduce la contraseña: ")
     print(contra(palabra))
 
 if __name__ == "__main__":

@@ -2,6 +2,8 @@
 
 def primos(num):
     cont = 2
+    if num <= 0:
+        return "Error."
     if num == 2:
         return "Es primo"
     while cont <= num - 1:
@@ -9,8 +11,8 @@ def primos(num):
         cont += 1
         if div == 0:
             return "No es primo"
-    if div != 0:
-        return "Es primo"
+        if div != 0:
+            return "Es primo"
 
 def main():
     num = int(input("Introduce un numero: "))

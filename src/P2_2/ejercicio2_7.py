@@ -2,12 +2,17 @@
 
 def tabla():
     num = 1
-    tabla = f"{num} x 10 = "
-    while num <= 10:
-        mult = num * 10
-        tabla = f"{num} x 10 = {mult}"
-        num += 1
-        print(tabla)
+    multi = 0
+    tabla = f"{num} x {multi} = "
+    while multi < 10:
+        num = 1
+        multi += 1
+        print('')
+        while num <= 10:
+            mult = num * multi
+            tabla = f"{num} x {multi} = {mult}"
+            num += 1
+            print(tabla)
 
 def main():
     tabla()

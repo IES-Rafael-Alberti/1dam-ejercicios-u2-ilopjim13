@@ -6,19 +6,23 @@ def sumadigitospositivos(num):
     while True:
         if num == "-1":
             break
-        elif num < "-1":
-            print("Error.")
+        elif int(num) < -1:
+            return "Error."
         elif num >= "0":
             for num2 in num:
                 num2 = int(num2)
                 num3 = num2 + num3
         print(f"{num} = {num3}")
-        num3 = 0
+        
         break
+    return num3
 
 
 def sonpares(num):
-    return int(num) % 2 == 0
+    if num == "0":
+        return False
+    else:
+        return int(num) % 2 == 0
 
 
 def main():

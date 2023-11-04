@@ -7,9 +7,9 @@ def impares(num):
         elif i >= num or i== num - 1:
             print(i,end="")
 
-num = int(input("Introduce un numero positivo: "))
 
 def main():
+    num = int(input("Introduce un numero positivo: "))
     impares(num)
 
 if __name__ == "__main__":

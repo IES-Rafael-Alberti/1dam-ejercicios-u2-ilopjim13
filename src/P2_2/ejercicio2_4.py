@@ -7,9 +7,9 @@ def numeros(num):
         elif i >= 0:
             print(i,end="")
 
-num = int(input("Introduce un numero positivo: "))
 
 def main():
+    num = int(input("Introduce un numero positivo: "))
     numeros(num)
 
 if __name__ == "__main__":

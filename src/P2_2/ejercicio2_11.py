@@ -3,7 +3,7 @@
 def deletrear(palabra):
     for i in reversed(palabra):
         print(i)
-        
+    return ''.join(reversed(palabra))#para el pytest
 
 def main():
     palabra = input("Introduce una palabra: ")

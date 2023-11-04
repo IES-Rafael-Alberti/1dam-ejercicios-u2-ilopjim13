@@ -6,6 +6,7 @@ def sumadigitospositivos(num):
             break
         elif num < "0":
             print("Error.")
+            break
         elif num >= "0":
             break
 
@@ -20,14 +21,20 @@ def digitospares(num):
     par = 0
     impar = 0
     while int(num) > 0:
+        if int(num) <= 0:
+            return "Error."
         digito = int(num) % 10
         if sonpares(digito):
-            par += 1
+            if "0" in num or 0 in num:
+                exit
+            else:
+                par += 1
         else:
             impar += 1
         num = int(num) // 10
     print(f"Numeros pares: {par}")
     print(f"Numeros impares: {impar}")
+    return f"{par} {impar}"
 
 
 def main():
