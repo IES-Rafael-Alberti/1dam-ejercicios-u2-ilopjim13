@@ -6,7 +6,7 @@ def separador(frase):
     for i in separada:
         if len(i) > len(mayor):
             mayor = i
-    return f"La palabra mas larga es '{mayor}' de {len(separada)} palabras"
+    return f"La palabra mas larga es '{mayor}' de {len(mayor)} palabras"
 
 def main():
     frase = input("Introduce una frase: ")

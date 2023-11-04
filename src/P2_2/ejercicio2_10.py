@@ -7,12 +7,12 @@ def primos(num):
     if num == 2:
         return "Es primo"
     while cont <= num - 1:
-        div = num % 2
+        div = num % cont
         cont += 1
         if div == 0:
             return "No es primo"
-        if div != 0:
-            return "Es primo"
+    if div != 0:
+        return "Es primo"
 
 def main():
     num = int(input("Introduce un numero: "))

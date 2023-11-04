@@ -9,14 +9,18 @@
 def triangulo(num):
     cont = 1
     serie = ""
+    if num <= 0:
+        print("Error.")
+        return "Error."
     while cont <= num:
         cont += 1
         serie = serie + "*"
         print(serie)
+    return serie
 
-num = int(input("Introduce un numero: "))
 
 def main():
+    num = int(input("Introduce un numero: "))
     triangulo(num)
 
 if __name__ == "__main__":

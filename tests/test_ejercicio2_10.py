@@ -16,9 +16,9 @@ from src.P2_2.ejercicio2_10 import primos
     (7, "Es primo"),
     (101, "Es primo"),
     (13, "Es primo"),
-    (11, "Es primo"),
+    (19, "Es primo"),
     (0, "Error."),
-    (5, "Es primo")
+    (2, "Es primo")
     ]
 )
 def test_primos_params(input_n1, expected):

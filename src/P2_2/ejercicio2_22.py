@@ -20,12 +20,12 @@ def sonpares(num):
 def digitospares(num):
     par = 0
     impar = 0
-    while int(num) > 0:
-        if int(num) <= 0:
+    if int(num) <= 0:
             return "Error."
+    while int(num) > 0:
         digito = int(num) % 10
         if sonpares(digito):
-            if "0" in num or 0 in num:
+            if "0" in str(num):
                 exit
             else:
                 par += 1
